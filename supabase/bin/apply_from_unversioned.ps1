@@ -25,3 +25,4 @@ cd $currentDir
 cd $binPath
 .\create_migrations_from_list.ps1 $changesList
 cd $currentDir
+supabase db reset
