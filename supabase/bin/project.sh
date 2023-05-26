@@ -1,0 +1,1 @@
+sed -i '' "s/\(project_id=\).*/\1\"$1\"/" config.toml
